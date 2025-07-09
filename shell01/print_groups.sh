@@ -1,6 +1,6 @@
 #!/bin/bash
-# Obtener los grupos del usuario FT_USER separados por espacios
+# Get the groups of the user FT_USER separated by spaces
 groups_list=$(id -Gn "$FT_USER")
-# Reemplazar espacios por comas sin espacios
+# Replace spaces with commas without spaces
 echo "$groups_list" | tr ' ' ','
 
