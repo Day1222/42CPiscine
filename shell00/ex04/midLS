@@ -1,0 +1,2 @@
+ls -1pt --sort=time   | grep -v '^\.'   | paste -sd ',' -   | sed 's/,/, /g'
+
